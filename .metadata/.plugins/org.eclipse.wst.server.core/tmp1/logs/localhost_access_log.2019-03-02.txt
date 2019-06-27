@@ -1,0 +1,10 @@
+127.0.0.1 - - [02/Mar/2019:13:29:03 -0800] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [02/Mar/2019:14:32:59 -0800] "GET /2019w-project4-autocomplete-example/ HTTP/1.1" 200 1115
+0:0:0:0:0:0:0:1 - - [02/Mar/2019:14:32:59 -0800] "GET /2019w-project4-autocomplete-example/style.css HTTP/1.1" 200 688
+0:0:0:0:0:0:0:1 - - [02/Mar/2019:14:32:59 -0800] "GET /2019w-project4-autocomplete-example/index.js HTTP/1.1" 200 4385
+0:0:0:0:0:0:0:1 - - [02/Mar/2019:14:32:59 -0800] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [02/Mar/2019:14:33:02 -0800] "GET /2019w-project4-autocomplete-example/hero-suggestion?query=ana HTTP/1.1" 200 48
+0:0:0:0:0:0:0:1 - - [02/Mar/2019:14:33:04 -0800] "GET /2019w-project4-autocomplete-example/hero-suggestion?query=a HTTP/1.1" 200 1017
+0:0:0:0:0:0:0:1 - - [02/Mar/2019:14:52:07 -0800] "GET /2019w-project4-autocomplete-example/hero-suggestion?query=a HTTP/1.1" 200 1017
+0:0:0:0:0:0:0:1 - - [02/Mar/2019:14:52:09 -0800] "GET /2019w-project4-autocomplete-example/hero-suggestion?query=a HTTP/1.1" 200 1017
+0:0:0:0:0:0:0:1 - - [02/Mar/2019:15:00:12 -0800] "GET /2019w-project4-autocomplete-example/hero-suggestion?query=a HTTP/1.1" 200 1017

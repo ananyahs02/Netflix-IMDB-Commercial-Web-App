@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\anany\CatSneeze\CatsneezeOnlineMovie-Website"/>
+			<item value="C:\Users\anany\cs122b\cs122b-winter19-team-10\cs122b-project"/>
+			<item value="C:\Users\anany\Downloads\cs122b-winter19-team-109-master\cs122b-winter19-team-109-master"/>
+			<item value="C:\Users\anany\CatSneeze"/>
+			<item value="C:\Users\anany\2019w-project4-autocomplete-example"/>
+			<item value="C:\Users\anany\Downloads\CatSneeze-master\CatsneezeOnlineMovie-Website"/>
+			<item value="C:\Users\anany\cs122b\cs122b-winter19-team-10"/>
+			<item value="C:\Users\anany\2019w-project4-login-example"/>
+			<item value="C:\Users\anany\cs122b\cs122b-winter19-team-10\DOMParser"/>
+			<item value="C:\Users\anany\2019w-project3-encryption-example"/>
+			<item value="C:/Users/anany/cs122b/cs122b-winter19-team-10/cs122b-project"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

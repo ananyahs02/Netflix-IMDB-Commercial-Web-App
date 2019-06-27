@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+C:\Users\anany\cs122b\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3721951974.index
+\catsneeze\src\main\java
+C:\Users\anany\cs122b\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\928979731.index
+\IR\src
+C:\Users\anany\cs122b\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\445977014.index
+\catsneeze\src\main\java
+C:\Users\anany\cs122b\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1378499849.index
+\cs122b-project\src
+C:\Users\anany\cs122b\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1859657339.index
+\catsneeze\src\main\java
