@@ -76,7 +76,18 @@
          Either JSSE or OpenSSL style configuration may be used regardless of
          the SSLImplementation selected. JSSE style configuration is used below.
     -->
-    <Connector SSLEnabled="true" connectionTimeout="20000" keystoreFile="C:\Users\anany\Downloads\apache-tomcat-8.5.37-windows-x64\apache-tomcat-8.5.37\keystore" keystorePass="cs122b" maxThreads="150" port="8443" protocol="HTTP/1.1" redirectPort="8443" scheme="https" secure="true" sslProtocol="TLS">
+    <!--
+    <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+               maxThreads="150" SSLEnabled="true">
+        <SSLHostConfig>
+            <Certificate certificateKeystoreFile="conf/localhost-rsa.jks"
+                         type="RSA" />
+        </SSLHostConfig>
+    </Connector>
+    -->
+
+    <Connector SSLEnabled="true" connectionTimeout="20000" keystoreFile="/Users/lifuyao/Desktop/apache-tomcat-8.5.37/keystore" keystorePass="cs122b" maxThreads="150" port="8443" protocol="HTTP/1.1" redirectPort="8443" scheme="https" secure="true" sslProtocol="TLS">
+
     </Connector>
     <!-- Define a SSL/TLS HTTP/1.1 Connector on port 8443 with HTTP/2
          This connector uses the APR/native implementation which always uses
@@ -142,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      </Host>
+      <Context docBase="cs122b-project" path="/cs122b-project" reloadable="true" source="org.eclipse.jst.jee.server:cs122b-project"/></Host>
     </Engine>
   </Service>
 </Server>
